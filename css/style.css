@@ -1,2 +1,196 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700,900&subset=cyrillic');
-/*@import url('https://use.fontawesome.com/releases/v5.7.2/css/all.css');*/
+html{
+    font-family: Montserrat;
+    font-size: 18px;
+    color: white;
+}
+ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.container{
+    max-width: 1180px;
+    padding: 0;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+header{
+    background-color: black;    
+    height: 90px;
+    width: 1920px;
+}
+.header-logo{
+    float: left;
+    padding: 0;
+    margin: 0 80px 0 0;
+}
+.header-logo img{
+    height: 60px;
+    margin: 15px 0px 15px;
+    padding: 0;
+}
+.header-menu{
+    float: left;
+}
+.header-menu ul li{
+    
+    display: inline-block;
+    margin: 35px 20px;
+    font-size: 15px;
+    font-weight: 500;
+}
+.header-soc{
+    float: left;
+    margin: 33px 15px;
+}
+.header-soc a{
+    padding: 2px 11px;
+    border-right: solid #3a3a3a 1px; 
+}
+.header-contact{
+    float: left;
+    margin-top: 25px;    
+}
+.header-contact-tel{
+    font-size: 22px;
+    font-weight: 700;
+}
+.header-contact-time{
+    margin: 5px 0 0 10px;
+    font-size: 13px;
+    font-weight: 500;   
+}
+.slider{
+    background:  url(../img/video.png) no-repeat;
+    position: absolute;
+    width: 1920px;
+    height: 600px;
+}
+.slider-circle{
+    background: #f32121;
+    width: 430px;
+    height: 430px;
+    border-radius: 215px;
+    box-shadow: 2px 3.464px 55px 0px rgba(243, 33, 33, 0.64);  
+    position: absolute;
+    left: 745px;
+    top: 90px;
+        
+}
+.slider-circle-text1{
+    font-size: 36px;
+    font-weight: 300;
+    padding: 110px 0 0 90px;
+    text-transform: uppercase;
+}
+.slider-circle-text2{
+    font-size: 46px;
+    font-weight: 900;
+    padding: 20px 0 0 20px;
+    text-transform: uppercase;
+}
+.slider-sushi1{
+    position: absolute;
+    left: 120px;
+    top: 45px;
+    z-index: 1;
+}
+.slider-sushi2{
+    position: absolute;
+    left: 1470px;
+    top: 60px;
+    z-index: 2;
+}
+.slider-sushi3{
+    position: absolute;
+    left: 970px;
+    top: 70px;
+    z-index: 3;
+}
+.slider-sushi4{
+    position: absolute;
+    left: 560px;
+    top: 80px;
+    z-index: 4;
+}
+.slider-sushi5{  
+    position: absolute;  
+    left: 1090px;
+    top: 90px;
+    z-index: 5;
+}
+.slider-sushi6{  
+    position: absolute;  
+    left: 900px;
+    top: 550px;
+    z-index: 6;
+}
+main{
+    background: black;
+    width: 1920px;
+    position: absolute;
+    top: 690px;
+}
+.main-top-left{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+.main-top-right{
+    position: absolute;
+    top: 0px;
+    left: 1475px;
+}
+.main-bottom-left{
+    position: absolute;
+    top: 1250px;
+    left: 0px;
+}
+.main-bottom-right{
+    position: absolute;
+    top: 1250px;
+    left: 1409px;
+}
+.main-online h2{
+    font-size: 42px;
+    font-weight: 300;
+    text-align: center;
+}
+.main-online-text {
+    font-size: 18px;
+    font-weight: 600;
+    text-align: center;
+}
+.main-online-menu ul li{
+    float: left;
+    display: inline-block;
+    border: solid #323232 1px;
+    width: 234px;
+    height: 360px;
+    margin: 0 0 0 -1px;
+}
+.main-online-menu-logo{
+    height: 250px;
+}
+.main-online-menu-text{
+    font-weight: 300;
+    font-size: 22px;
+    text-align: center;
+}
+.main-online-menu-button{
+    font-weight: 500;
+    font-size: 15px;
+    text-align: center;
+    background: #f32121;
+    border-radius: 27px;
+    width: 198px;
+    height: 54px;
+    display: block;
+    padding-top: 20px;
+    box-sizing: border-box;
+}
