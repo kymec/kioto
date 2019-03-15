@@ -22,12 +22,11 @@ a{
 header{
     background-color: black;    
     height: 90px;
-    width: 1920px;
 }
 .header-logo{
     float: left;
     padding: 0;
-    margin: 0 80px 0 0;
+    margin: 0 70px 0 0;
 }
 .header-logo img{
     height: 60px;
@@ -37,10 +36,9 @@ header{
 .header-menu{
     float: left;
 }
-.header-menu ul li{
-    
+.header-menu ul li{    
     display: inline-block;
-    margin: 35px 20px;
+    margin: 35px 15px;
     font-size: 15px;
     font-weight: 500;
 }
@@ -49,12 +47,13 @@ header{
     margin: 33px 15px;
 }
 .header-soc a{
+    float: left;
     padding: 2px 11px;
     border-right: solid #3a3a3a 1px; 
 }
 .header-contact{
     float: left;
-    margin-top: 25px;    
+    margin: 25px;    
 }
 .header-contact-tel{
     font-size: 22px;
@@ -66,21 +65,20 @@ header{
     font-weight: 500;   
 }
 .slider{
-    background:  url(../img/video.png) no-repeat;
-    position: absolute;
-    width: 1920px;
-    height: 600px;
+    background:  url(../img/video.png) no-repeat center center;
+    position: relative;
+    height: 610px;
 }
 .slider-circle{
     background: #f32121;
     width: 430px;
     height: 430px;
     border-radius: 215px;
-    box-shadow: 2px 3.464px 55px 0px rgba(243, 33, 33, 0.64);  
+    box-shadow: 2px 3.464px 55px 0px rgba(243, 33, 33, 0.64);
     position: absolute;
-    left: 745px;
-    top: 90px;
-        
+    top: 50%;
+    left: 50%;
+    margin: -214px -214px;
 }
 .slider-circle-text1{
     font-size: 36px;
@@ -132,39 +130,38 @@ header{
 }
 main{
     background: black;
-    width: 1920px;
-    position: absolute;
-    top: 690px;
 }
 .main-top-left{
     position: absolute;
-    top: 0px;
+    top: 700px;
     left: 0px;
 }
 .main-top-right{
     position: absolute;
-    top: 0px;
+    top: 700px;
     left: 1475px;
 }
 .main-bottom-left{
     position: absolute;
-    top: 1250px;
+    top: 1950px;
     left: 0px;
 }
 .main-bottom-right{
     position: absolute;
-    top: 1250px;
+    top: 1950px;
     left: 1409px;
 }
 .main-online h2{
     font-size: 42px;
     font-weight: 300;
     text-align: center;
+    padding: 100px 0 0 0;
 }
 .main-online-text {
     font-size: 18px;
     font-weight: 600;
     text-align: center;
+    padding: 0 0 35px 0;
 }
 .main-online-menu ul li{
     float: left;
@@ -175,7 +172,7 @@ main{
     margin: 0 0 0 -1px;
 }
 .main-online-menu-logo{
-    height: 250px;
+    height: 250px;    
 }
 .main-online-menu-text{
     font-weight: 300;
