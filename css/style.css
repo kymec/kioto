@@ -219,6 +219,9 @@ main{
     background: url(../img/arrow-i.png) no-repeat center center;
     position: absolute;
 }
+.main-news{
+    padding-bottom: 225px;
+}
 .main-news h2{
     text-align: center;
     font-size: 42px;
@@ -248,7 +251,7 @@ main{
     font-weight: 600;
 }
 .main-news-list h3{
-    margin: 0 0 10px 0;
+    margin: -5px 0 12px 0;
 }
 .main-news-date{
     font-size: 13px;
@@ -270,7 +273,7 @@ main{
     font-size: 13px;
     font-weight: 400;
     width: 548px;
-    margin-bottom: 15px;
+    height: 100px;
 }
 .main-news-button{
     float: left;
