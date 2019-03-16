@@ -21,7 +21,6 @@ a{
 }
 header{
     background-color: black;    
-    height: 90px;
 }
 .header-logo{
     float: left;
@@ -47,7 +46,6 @@ header{
     margin: 33px 15px;
 }
 .header-soc a{
-    float: left;
     padding: 2px 11px;
     border-right: solid #3a3a3a 1px; 
 }
@@ -63,6 +61,11 @@ header{
     margin: 5px 0 0 10px;
     font-size: 13px;
     font-weight: 500;   
+}
+.clear{
+    content: '';
+    clear: both;
+    display: block;
 }
 .slider{
     background:  url(../img/video.png) no-repeat center center;
@@ -93,43 +96,39 @@ header{
     text-transform: uppercase;
 }
 .slider-sushi1{
-    position: absolute;
-    left: 120px;
+    position: relative;
+    left: -21%;
     top: 45px;
-    z-index: 1;
 }
 .slider-sushi2{
-    position: absolute;
-    left: 1470px;
-    top: 60px;
-    z-index: 2;
+    position: relative;
+    left: 30%;
+    top: -518px;
 }
 .slider-sushi3{
-    position: absolute;
-    left: 970px;
-    top: 70px;
-    z-index: 3;
+    position: relative;
+    left: -23.5%;
+    top: -498px;
 }
 .slider-sushi4{
-    position: absolute;
-    left: 560px;
-    top: 80px;
-    z-index: 4;
+    position: relative;
+    left: -70%;
+    top: -560px;
 }
 .slider-sushi5{  
-    position: absolute;  
-    left: 1090px;
-    top: 90px;
-    z-index: 5;
+    position: relative;  
+    left: 61.5%;
+    top: -577px;
 }
 .slider-sushi6{  
-    position: absolute;  
-    left: 900px;
-    top: 550px;
-    z-index: 6;
+    position: relative;  
+    top: -728px;
 }
 main{
     background: black;
+}
+main .container{
+    background: url('../img/top-left.png') no-repeat top left, url('../img/top-right.png')no-repeat top right, url('../img/bottom-left.png') no-repeat bottom left, url('../img/bottom-right.png') no-repeat bottom right;
 }
 .main-top-left{
     position: absolute;
@@ -162,14 +161,14 @@ main{
     font-weight: 600;
     text-align: center;
     padding: 0 0 35px 0;
+    line-height: 30px;
 }
 .main-online-menu ul li{
-    float: left;
     display: inline-block;
     border: solid #323232 1px;
     width: 234px;
     height: 360px;
-    margin: 0 0 0 -1px;
+    margin: 0 0 -1px -1px;
 }
 .main-online-menu-logo{
     height: 250px;    
