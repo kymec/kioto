@@ -125,10 +125,7 @@ header{
     top: -728px;
 }
 main{
-    background: black;
-}
-main .container{
-    background: url('../img/top-left.png') no-repeat top left, url('../img/top-right.png')no-repeat top right, url('../img/bottom-left.png') no-repeat bottom left, url('../img/bottom-right.png') no-repeat bottom right;
+    background: url('../img/top-left.png') no-repeat top left, url('../img/top-right.png')no-repeat top right, url('../img/bottom-left.png') no-repeat bottom left, url('../img/bottom-right.png') no-repeat bottom right, black;
 }
 .main-top-left{
     position: absolute;
@@ -154,13 +151,14 @@ main .container{
     font-size: 42px;
     font-weight: 300;
     text-align: center;
-    padding: 100px 0 0 0;
+    padding-top: 100px;
+    margin: 0;
 }
 .main-online-text {
     font-size: 18px;
     font-weight: 600;
     text-align: center;
-    padding: 0 0 35px 0;
+    padding: 35px 0 45px 0;
     line-height: 30px;
 }
 .main-online-menu ul li{
@@ -168,25 +166,32 @@ main .container{
     border: solid #323232 1px;
     width: 234px;
     height: 360px;
-    margin: 0 0 -1px -1px;
+    margin-top: -10px;
+    text-align: center;
 }
 .main-online-menu-logo{
-    height: 250px;    
+    position: relative;
+    line-height: 280px;
+}
+.main-online-menu-logo img{
+    margin-top: 90px;
+    max-width: 234px;
+    max-height: 360px;
+    vertical-align: middle;
 }
 .main-online-menu-text{
     font-weight: 300;
     font-size: 22px;
-    text-align: center;
 }
 .main-online-menu-button{
     font-weight: 500;
     font-size: 15px;
-    text-align: center;
     background: #f32121;
     border-radius: 27px;
     width: 198px;
     height: 54px;
     display: block;
+    margin: 28px auto;
     padding-top: 20px;
     box-sizing: border-box;
 }
