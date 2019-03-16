@@ -232,15 +232,16 @@ main{
 }
 .main-news-img{
     float: left;
-    margin-right: 30px;    
-    width: 270px;
-    height: 230px;    
-    overflow: hidden;
+    margin-right: 30px;   
+    overflow: hidden;    
+    margin-bottom: 30px; 
+}
+.main-news-list article{
+    float: left;
 }
 .main-news-img img{
     position: relative;
     border-radius: 3px;
-    
 }
 .main-news-head{
     font-size: 18px;
@@ -269,8 +270,10 @@ main{
     font-size: 13px;
     font-weight: 400;
     width: 548px;
+    margin-bottom: 15px;
 }
 .main-news-button{
+    float: left;
     text-align: center;
     font-size: 13px;
     font-weight: 400;
@@ -279,17 +282,8 @@ main{
     width: 152px;
     height: 41px;
     box-shadow: 2px 3.464px 24px 0px rgba(243, 33, 33, 0.64);
-    margin-left: 300px;
     padding-top: 13px;
     box-sizing: border-box;
-}
-.main-news-list article{
-    float: left;
-}
-.main-news-img img::after{
-    content: '';
-    clear: both;
-    display: block;
 }
 footer{
     background: #282828;
