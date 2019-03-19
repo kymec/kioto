@@ -74,7 +74,7 @@ header{
     display: block;
 }
 .slider{
-    background:  url(./img/video.png) no-repeat center center;
+    background:  url(../img/video.png) no-repeat center center;
     position: relative;
     height: 610px;
     overflow: hidden;
@@ -132,7 +132,7 @@ header{
     top: -728px;
 }
 main{
-    background: url('./img/top-left.png') no-repeat top left, url('./img/top-right.png')no-repeat top right, url('./img/bottom-left.png') no-repeat bottom left, url('./img/bottom-right.png') no-repeat bottom right, black;
+    background: url('../img/top-left.png') no-repeat top left, url('../img/top-right.png')no-repeat top right, url('../img/bottom-left.png') no-repeat bottom left, url('../img/bottom-right.png') no-repeat bottom right, black;
 }
 .main-top-left{
     position: absolute;
@@ -216,7 +216,7 @@ main{
     height: 7px;
     margin-top: 5px;
     margin-left: 10px;
-    background: url(./img/arrow-i.png) no-repeat center center;
+    background: url(../img/arrow-i.png) no-repeat center center;
     position: absolute;
 }
 .main-news{
@@ -265,7 +265,7 @@ main{
     height: 14px;
     margin-top: 4px;
     margin-left: -20px;
-    background: url(./img/calendar-i.png) no-repeat center center;
+    background: url(../img/calendar-i.png) no-repeat center center;
     position: absolute;
 }
 .main-news-text{
