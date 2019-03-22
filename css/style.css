@@ -215,10 +215,12 @@ main{
     max-width: 234px;
     max-height: 360px;
     vertical-align: middle;
+    overflow: hidden;
 }
 .main-online-menu-text{
     font-weight: 300;
     font-size: 22px;
+    overflow: hidden;
 }
 .main-online-menu-button{
     font-weight: 500;
@@ -230,15 +232,15 @@ main{
     box-shadow: 2px 3.464px 24px 0px rgba(243, 33, 33, 0.64);
     display: block;
     margin: 28px auto;
-    padding-top: 20px;
+    line-height: 54px;
     box-sizing: border-box;
 }
 .main-online-menu-button::after{
     content: '';
     width: 15px;
     height: 7px;
-    margin-top: 5px;
-    margin-left: 10px;
+    margin-top: 24px;
+    margin-left: 8px;
     background: url(../img/arrow-i.png) no-repeat center center;
     position: absolute;
 }
@@ -486,11 +488,11 @@ footer{
     }
     .header-contact{
         margin-top: -45px;
-        margin-left: 10px;
+        margin-left: 120px;
     }
     .header-soc{
         margin-top: -45px;
-        margin-left: 50px;
+        margin-left: 150px;
     }
     .footer-info{
         margin-left: 30px;
@@ -501,10 +503,17 @@ footer{
         font-size: 14px;
     }
     .main-news-img{
+        margin-top: 20px;
         width: 100%;
     }
 }
-@media screen and (max-width: 622px){    
+@media screen and (max-width: 622px){  
+    .header-contact{
+        margin-left: 50px;
+    }
+    .header-soc{
+        margin-left: 80px;
+    }  
     .main-news-img img {
         max-width: 100%;
     }
@@ -524,6 +533,12 @@ footer{
     }
 }
 @media screen and (max-width: 470px){
+    .header-contact{
+        margin-left: 20px;
+    }
+    .header-soc{
+        margin-left: 50px;
+    } 
     .main-online-menu ul li{
         width: 100%;
     }
@@ -594,13 +609,22 @@ footer{
     }
     .main-online-menu-logo img{
         margin-top: 10px;
+        max-height: 130px;
+    }
+    .main-news{
+        text-align: center;
     }
     .main-news h2{
         padding-top: 30px;
         margin-bottom: 10px;
     }
     .main-news-text {
-        font-size: 10px;
+        font-size: 10px;        
+        text-align: justify;
+    }
+    .main-news-button{
+        float: none;
+        margin: 0 auto;
     }
     .main-online-menu-logo{
         line-height: 170px;        
