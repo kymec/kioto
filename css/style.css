@@ -460,7 +460,7 @@ footer{
 }
 @media screen and (max-width: 705px){
     .main-online-menu ul li{
-        width: 48%;
+        width: 49%;
     }
     .main-online-menu ul li:nth-child(3n){
         border-right: none;
