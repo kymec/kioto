@@ -154,26 +154,6 @@ header{
 main{
     background: url('../img/top-left.png') no-repeat top left, url('../img/top-right.png')no-repeat top right, url('../img/bottom-left.png') no-repeat bottom left, url('../img/bottom-right.png') no-repeat bottom right, black;
 }
-.main-top-left{
-    position: absolute;
-    top: 700px;
-    left: 0px;
-}
-.main-top-right{
-    position: absolute;
-    top: 700px;
-    left: 1475px;
-}
-.main-bottom-left{
-    position: absolute;
-    top: 1950px;
-    left: 0px;
-}
-.main-bottom-right{
-    position: absolute;
-    top: 1950px;
-    left: 1409px;
-}
 .main-online h2{
     font-size: 42px;
     font-weight: 300;
